@@ -13,7 +13,8 @@
 
 $namespaceName = "root\cimv2\mdm\dmmap"
 $className = "MDM_RemoteWipe"
-$methodName = "doWipeMethod"
+#$methodName = "doWipeMethod"
+$methodName = "doWipeProtectedMethod"
 
 $session = New-CimSession
 
